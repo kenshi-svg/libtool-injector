@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/SimpleIcons/simple-icons/develop/icons/android.svg" width="100" height="100" alt="Android Logo" style="background-color: transparent;" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/android.svg" width="100" height="100" alt="Android Logo" style="background-color: transparent;" />
 
   # 🛠️ Universal LibTool Injector
 
@@ -37,7 +37,7 @@ Follow these steps exactly to successfully inject your library:
 | Step | Action | Description |
 | :--- | :--- | :--- |
 | **1** | 📝 **Prepare Files** | Ensure your library is named exactly **`libtool.so`**. <br>*(Filename is case-sensitive!)* |
-| **2** | 📂 **Move to System** | Use MT Manager (Root mode) to copy the injector script and `libtool.so` to: <br>`/data/local/tmp/` |
+| **2** | 📂 **Move to System** | Use MT Manager (Root mode) to copy files named injector and `libtool.so` to: <br>`/data/local/tmp/` |
 | **3** | 🏎️ **Launch Game** | Open **CarX Street** (or your target game). |
 | **4** | ⚡ **Run Script** | Go back to MT Manager, navigate to `/data/local/tmp/`, select the `.sh` script, and execute it. |
 | **5** | 🎉 **Enjoy!** | Return to your game; the library is now injected. |
